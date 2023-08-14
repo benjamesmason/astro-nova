@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Khand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;800&family=Khand:wght@500&display=swap');
 
 body {
     font-family: "Barlow", sans-serif;
@@ -16,4 +16,12 @@ body {
     height: 100px;
     float: left;
     margin-right: 7px;
+}
+
+.custom-nav a {
+    border-radius: 25px;
+    background-color: rgb(243, 247, 31);
+    color: black !important;
+    font-weight: 800;
+    text-align: center;
 }
