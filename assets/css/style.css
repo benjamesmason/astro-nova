@@ -25,3 +25,25 @@ body {
     font-weight: 800;
     text-align: center;
 }
+
+.custom-nav a span {
+    font-size:large;
+    color: rgb(40, 11, 87);
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/star-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
