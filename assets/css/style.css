@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;800&family=Khand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 body {
-    font-family: "Barlow", sans-serif;
+    font-family: "Barlow", sans-serif !important;
 }    
 
 .navbar-custom {
@@ -20,9 +20,8 @@ body {
 
 .custom-nav a {
     border-radius: 25px;
-    background-color: rgb(243, 247, 31);
+    background-color: yellow;
     color: black !important;
-    font-weight: 800;
     text-align: center;
 }
 
@@ -32,8 +31,7 @@ body {
 }
 
 .callout-container {
-    height: 100vh;
-
+    height: 95vh;
     background: url('../images/star-background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -43,7 +41,38 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 
 }
+
+.jumbotron-header {
+    color:white;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #000000;
+}
+
+.fa-solid {
+    color:white;
+    margin-bottom: 30px;
+    
+}
+
+.jumbotron .lead {
+    color:white;
+    font-weight:400;
+    
+}
+
+.jumbotron small {
+    font-size: 70%;
+    font-style: italic;
+    color: #d0d0d0;
+
+}
+ .btn-custom {
+    background-color: yellow;
+    font-weight: 600 !important; 
+ }
+
+ 
