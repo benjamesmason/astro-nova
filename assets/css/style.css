@@ -27,15 +27,12 @@ body {
 
 .custom-nav a span {
     font-size:large;
-    color: rgb(40, 11, 87);
+    color: rgb(63, 15, 139);
 }
 
 .callout-container {
     height: 95vh;
     background: url('../images/star-background.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 
     display: flex;
@@ -50,6 +47,8 @@ body {
     font-weight: 700;
     margin-bottom: 30px;
     text-shadow: 2px 2px #000000;
+    margin-top: 200px;
+
 }
 
 .fa-solid {
@@ -65,9 +64,9 @@ body {
 }
 
 .jumbotron small {
-    font-size: 70%;
+    font-size: 80%;
     font-style: italic;
-    color: #d0d0d0;
+    color: #f0f0f0;
 
 }
  .btn-custom {
@@ -75,4 +74,22 @@ body {
     font-weight: 600 !important; 
  }
 
- 
+.display-container {
+    height: 95vh;
+    background: url('../images/star-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.footer {
+    background-color: black !important;
+}
+
+.social-media-icons .btn:hover {
+    background-color: yellow;
+}
