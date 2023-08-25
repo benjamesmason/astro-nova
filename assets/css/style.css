@@ -95,8 +95,22 @@ body {
     background-color: yellow;
     font-weight: 600 !important; 
  }
+ 
+#zodiac-photos img {
+    max-height:200px;
+    max-width:200px;
+    padding:30px;
+    border-radius: 25px;
+}
 
-.display-container {
+#zodiac-photos {
+    
+    column-count: 6;
+}
+
+
+
+ .display-container {
     height: 100vh;
     background: url('../images/universe.jpg') no-repeat center center fixed;
     background-size: cover;
