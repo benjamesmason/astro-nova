@@ -2,6 +2,8 @@
 
 body {
     font-family: "Jost", sans-serif !important;
+    background-color: rgb(34, 6, 29)!important;
+    color: white !important;
 }    
 
 .navbar-custom {
@@ -94,21 +96,34 @@ body {
  .btn-custom {
     background-color: yellow;
     font-weight: 600 !important; 
- }
+}
  
-#zodiac-photos img {
-    max-height:200px;
-    max-width:200px;
-    padding:30px;
-    border-radius: 25px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 6px;
 }
 
-#zodiac-photos {
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 6px;
+}
+
+.column img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    width: 100%;
+    padding:5px;
     
-    column-count: 6;
 }
 
-
+.zodiac-icons {
+    display: flex;
+        justify-content: center;
+}
 
  .display-container {
     height: 100vh;
