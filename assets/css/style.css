@@ -2,16 +2,16 @@
 
 body {
     font-family: "Jost", sans-serif !important;
-    background-color: rgb(30, 30, 30)!important;
+    background-color: rgb(30, 30, 30) !important;
     color: white !important;
-}    
+}
 
 .navbar-custom {
     background-color: rgb(7, 6, 6);
     font-family: "Jost";
-    font-weight:400;
+    font-weight: 400;
     color: #ffff;
-        
+
 }
 
 .navbar-brand img {
@@ -28,12 +28,12 @@ body {
 }
 
 .custom-nav a span {
-    font-size:large;
+    font-size: large;
     color: rgb(63, 15, 139);
 }
 
 .alert-custom {
-    color:white;
+    color: white;
     background-color: rgb(7, 6, 6);
 }
 
@@ -44,9 +44,10 @@ body {
 .alert-custom i {
     color: yellow;
 }
+
 .callout-container {
-    padding-top:20%;
-    padding-bottom:20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     background: url('../images/galaxy-background.jpg') no-repeat center center;
     background-size: cover;
     background-position: bottom 25% right 10%;
@@ -55,37 +56,39 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top:-20px;
+    margin-top: -20px;
 
 }
 
 #cover-text {
     background-color: rgba(48, 48, 48, 0.7);
-    padding:25px;
+    padding: 25px;
     border-radius: 25px;
-    
+
 }
+
 .jumbotron {
     margin-top: -75px;
 }
+
 .jumbotron-header {
-    color:rgb(248, 248, 248);
+    color: rgb(248, 248, 248);
     font-weight: 700;
     margin-bottom: 30px;
     text-shadow: 2px 2px #000000;
-    
+
 }
 
 .fa-solid {
-    color:white;
+    color: white;
     margin-bottom: 30px;
-    
+
 }
 
 .jumbotron .lead {
-    color:white;
-    font-weight:400;
-    
+    color: white;
+    font-weight: 400;
+
 }
 
 .jumbotron small {
@@ -94,12 +97,13 @@ body {
     color: #f0f0f0;
 
 }
- .btn-custom {
+
+.btn-custom {
     background-color: yellow;
     font-weight: 600 !important;
-    color:black; 
+    color: black;
 }
- 
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -118,16 +122,17 @@ body {
     margin-bottom: 10px;
     vertical-align: middle;
     width: 100%;
-    padding:5px;
-    
+    padding: 5px;
+
 }
 
 .zodiac-icons {
     display: flex;
-        justify-content: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
- .display-container {
+.display-container {
     height: 100vh;
     background: url('../images/galaxy-background.jpg') no-repeat center center fixed;
     background-size: cover;
