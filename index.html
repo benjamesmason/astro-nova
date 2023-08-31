@@ -31,77 +31,104 @@
         </div>
 
     </nav>
-    <div class="alert alert-custom font-italic rounded-0 text-center" role="alert"><small>
-            <a href="#" class="alert-link">SUBSCRIBE</a> to our FREE Newsletter for exclusive offers and
-            announcements...
-        </small><i class="fa-solid fa-envelope fa-sm"></i></div>
+        <!-- Alert and Modal-->
+    <div class="alert alert-custom font-italic text-center" role="alert"><small>
+            <button class="alert-link" data-toggle="modal" data-target="#myModal">SUBSCRIBE</button> to our FREE Newsletter for exclusive offers and
+            announcements... </small><i class="fa-solid fa-envelope fa-sm"></i></div>
 
+    <div class="modal" id="myModal" role="dialog" aria-labelledby="subscription-form" aria-hidden="true">
+                
+        
+        <!-- Modal content-->
+                <div class="modal-body center"> 
+                
+        <!--Header-->
+                <div class="modal-header text-center">
+                    <h4 class="modal-title white-text w-100 font-weight-bold py-2">Subscribe</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                </div>
+                <form>
+        <!-- Input Name -->
+                <div class="form-outline mb-4">
+                    <input type="text" id="sub-name" class="form-control" />
+                    <label class="form-label" for="sub-name">Name</label>
+                </div>
+                
+        <!-- Input Email -->
+                <div class="form-outline mb-4">
+                    <input type="email" id="sub-email" class="form-control" />
+                    <label class="form-label" for="sub-email">Email address</label>
+                </div>
+                
+        <!-- Submit Button -->
+                <button type="submit" class="btn btn-custom btn-block mb-4">Sign me Up!</button>
+           
+                </form>
 
-    <div class="container-fluid callout-container">
-        <!-- Callout -->
-
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center  bg-transparent">
-                    <h1 class="jumbotron-header">GET A FREE ASTROLOGY READING</h1>
-                    <i class="fa-solid fa-moon fa-2xl"></i>
-                    <div id="cover-text">
-                        <p class="lead">Ever wonder what's written in your stars? Sign up today with AstroNova+.
-                            <strong>First reading is free!</strong>
-                        </p>
-                        <p><a href="astronova-plus.html"><button class="btn btn-lg btn-custom" data-toggle="modal"
-                                    data-target="#signUpModal">Sign
-                                    Up!</button></a></p>
-                        <p class="text-muted"><small>Trial week free for new members. £2.99/weekly subscription after
-                                trial period. Cancel for free anytime.</small></p>
-                    </div>
-                </section>
             </div>
         </div>
     </div>
-
-
+    
+                    
+        <!-- Callout -->
+    <div class="container-fluid callout-container">
+        
+        <div class="row">
+        <div class="col-12">
+        <section class="callout jumbotron text-center  bg-transparent">
+                <h1 class="jumbotron-header">GET A FREE ASTROLOGY READING</h1>
+                    <i class="fa-solid fa-moon fa-2xl"></i>
+                <div id="cover-text">
+                    <p class="lead">Ever wonder what's written in your stars? Sign up today with AstroNova+.
+                            <strong>First reading is free!</strong></p>
+                        <p><a href="astronova-plus.html">
+                        <button class="btn btn-lg btn-custom" data-toggle="modal" data-target="#signUpModal">SignUp!</button></a></p>
+                        <p class="text-muted"><small>Trial week free for new members. £2.99/weekly subscription after trial period. Cancel for free anytime.</small></p>
+                </div>
+        </section>
+        </div>
+        </div>
+    </div>
+     
+        <!-- Zodiac Section -->
     <section id="zodiacs">
-        <h2 class="text-center mt-5 mb-7">Choose Your Zodiac Sign</h2>
+        <h1 class="zodiac-section-header text-center mt-5 mb-4 ">CHOOSE YOUR ZODIAC</h1>
+        <h3 class="text-center">and view your weekly horoscope.</h3>
 
-
-        <div class="row zodiac-icons">
+        <!-- Zodiac Icons -->
+        <div class="row zodiac-icons mt-1">
             <div class="column">
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/aries.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/cancer.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/libra.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/capricorn.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/aries.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/cancer.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/libra.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/capricorn.png"></a>
             </div>
             <div class="column">
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/Taurus.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/leo.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/scorpio.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/aquarius.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/Taurus.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/leo.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/scorpio.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/aquarius.png"></a>
             </div>
             <div class="column">
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/gemini.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/virgo.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/sagittarius.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle" src="../assets/images/pisces.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/gemini.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/virgo.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/sagittarius.png"></a>
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/pisces.png"></a>
             </div>
 
         </div>
 
     </section>
 
-
-
-
-
-
-
-
-
+        <!-- Footer -->
 
     <footer class="footer text-center text-white">
-        <!-- Grid container -->
+        
         <div class="container p-4">
-            <!-- Section: Social media -->
+
+        <!-- Section: Social media -->
             <section class="social-media-icons">
                 <!-- Facebook -->
                 <a class="rounded-circle btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/"
@@ -119,15 +146,14 @@
                 <a class="rounded-circle btn btn-outline-light btn-floating m-1" href="https://www.tiktok.com/"
                     role="button"><i class="fa-brands fa-tiktok"></i></a>
             </section>
-            <!-- Section: Social media -->
+            
         </div>
-        <!-- Grid container -->
-
+        
         <!-- Copyright -->
         <div class="text-center pb-2 footer small">
             © 2023 Copyright. <br> This webiste was made for educational purposes only.
         </div>
-        <!-- Copyright -->
+        
     </footer>
 
 
