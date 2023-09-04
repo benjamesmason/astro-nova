@@ -27,14 +27,19 @@ body {
     text-align: center;
 }
 
+.custom-nav a:hover {
+    background-color:rgb(165, 181, 59);
+}
+
 .custom-nav a span {
     font-size: large;
-    color: rgb(63, 15, 139);
 }
 
 .alert-custom {
     color: white;
     background-color: rgb(7, 6, 6);
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .alert-custom button {
@@ -47,18 +52,25 @@ body {
 
 .alert-custom button:hover {
     
-    color: rgb(93, 0, 186);
+    color: rgb(165, 181, 59);
 }
 
 .alert-custom i {
     color: yellow;
 }
 
-.modal {
-    width:50%;
-        
+.modal-custom .modal-content {
+    background-color: rgb(48, 48, 48);
+          
 }
 
+.btn-custom {
+    background-color: yellow;
+}
+
+.btn-custom:hover {
+    background-color: rgb(165, 181, 59);
+}
 .close {
     color: yellow !important;
 
@@ -123,43 +135,56 @@ body {
     color: black;
 }
 
+#zodiacs {
+    margin-bottom:30px;
+}
+
+
 .zodiac-section-header {
     color: rgb(248, 248, 248);
     font-weight: 600
 }
 
 .row {
-    display: flex;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 0 6px;
+    padding: 0 4px;
 }
 
-
+/* Create 6 equal columns */
 .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 6px;
+    -ms-flex: 15%;
+    /* IE10 */
+    flex: 15%;
+    max-width: 15%;
+    padding: 0 9px;
+    ;
 }
 
 .column img {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-    padding: 5px;
-
+    height:auto;
 }
-
-.zodiac-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+/* Responsive layout - makes the 3 columns */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 33.3%;
+        flex: 33.3%;
+        max-width: 33.3%;
+    }
 }
 
 .thumbnail:hover {
-    background-color:white;
+    
     opacity: 0.5;
     transition: .5s ease;
+    
 }
 
 .display-container {

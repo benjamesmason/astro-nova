@@ -32,41 +32,34 @@
 
     </nav>
         <!-- Alert and Modal-->
-    <div class="alert alert-custom font-italic text-center" role="alert"><small>
-            <button class="alert-link" data-toggle="modal" data-target="#myModal">SUBSCRIBE</button> to our FREE Newsletter for exclusive offers and
+    <div class="alert alert-custom font-italic text-center " role="alert"><small>
+            <button class="alert-link" data-toggle="modal" data-target="#signUpModal">SUBSCRIBE</button> to our FREE Newsletter for exclusive offers and
             announcements... </small><i class="fa-solid fa-envelope fa-sm"></i></div>
+        <!-- Modal -->  
 
-    <div class="modal" id="myModal" role="dialog" aria-labelledby="subscription-form" aria-hidden="true">
-                
-        
-        <!-- Modal content-->
-                <div class="modal-body center"> 
-                
-        <!--Header-->
-                <div class="modal-header text-center">
-                    <h4 class="modal-title white-text w-100 font-weight-bold py-2">Subscribe</h4>
+    <div class="modal modal-custom" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+        <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Subscribe to AstroNova!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="white-text">&times;</span>
+                        <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <form>
-        <!-- Input Name -->
-                <div class="form-outline mb-4">
-                    <input type="text" id="sub-name" class="form-control" />
-                    <label class="form-label" for="sub-name">Name</label>
+        <!-- Modal Body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="InputEmail">Email address <i class="fa-sharp fa-solid fa-at fa-lg" style="color: #ffff00;"></i></label>
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">Join our Mailing list for exclusive offers and announcements.</small>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-custom">Join Us!</button>
+                    </form>
                 </div>
-                
-        <!-- Input Email -->
-                <div class="form-outline mb-4">
-                    <input type="email" id="sub-email" class="form-control" />
-                    <label class="form-label" for="sub-email">Email address</label>
-                </div>
-                
-        <!-- Submit Button -->
-                <button type="submit" class="btn btn-custom btn-block mb-4">Sign me Up!</button>
-           
-                </form>
-
             </div>
         </div>
     </div>
@@ -84,41 +77,50 @@
                     <p class="lead">Ever wonder what's written in your stars? Sign up today with AstroNova+.
                             <strong>First reading is free!</strong></p>
                         <p><a href="astronova-plus.html">
-                        <button class="btn btn-lg btn-custom" data-toggle="modal" data-target="#signUpModal">SignUp!</button></a></p>
+                        <button class="btn btn-lg btn-custom">Sign Up!</button></a></p>
                         <p class="text-muted"><small>Trial week free for new members. £2.99/weekly subscription after trial period. Cancel for free anytime.</small></p>
                 </div>
         </section>
         </div>
         </div>
     </div>
+    
      
         <!-- Zodiac Section -->
     <section id="zodiacs">
-        <h1 class="zodiac-section-header text-center mt-5 mb-4 ">CHOOSE YOUR ZODIAC</h1>
-        <h3 class="text-center">and view your weekly horoscope.</h3>
+        <h1 class="zodiac-section-header text-center mt-5 mb-2 ">CHOOSE YOUR ZODIAC</h1>
+        <h3 class="text-center">view your weekly horoscope.</h3>
 
         <!-- Zodiac Icons -->
-        <div class="row zodiac-icons mt-1">
-            <div class="column">
+        
+                    <div class="row">
+                        <div class="column">
                 <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/aries.png"></a>
                 <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/cancer.png"></a>
+                        </div>
+                        <div class="column">
                 <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/libra.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/capricorn.png"></a>
-            </div>
-            <div class="column">
+                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/capricorn.png"></a>   
+                        </div>        
+                <div class="column">
                 <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/Taurus.png"></a>
                 <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/leo.png"></a>
+                        </div>
+                <div class="column">
                 <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/scorpio.png"></a>
                 <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/aquarius.png"></a>
-            </div>
-            <div class="column">
-                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/gemini.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/virgo.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/sagittarius.png"></a>
-                <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/pisces.png"></a>
-            </div>
+                       </div>
+                <div class="column">
+                    <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/Taurus.png"></a>
+                    <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/leo.png"></a>
+                </div>
+                <div class="column">
+                    <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/scorpio.png"></a>
+                    <a href="horoscopes.html"><img class="rounded-circle thumbnail" src="../assets/images/aquarius.png"></a>
+                </div>
+                           
 
-        </div>
+                </div>
 
     </section>
 
