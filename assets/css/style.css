@@ -191,11 +191,28 @@ body {
     height: 100vh;
     background: url('../images/galaxy-background.jpg') no-repeat center center fixed;
     background-size: cover;
-
+    ;
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
+}
+
+#aries {
+    background-color: rgba(48, 48, 48, 0.75);
+    margin-bottom: 5rem;
+    margin-top:4rem;
+    border-radius: 25px;
+    padding:2rem;
+}
+
+.aries-image {
+    mix-blend-mode: multiply;
+    width:8rem;
+    height:8rem;
+    margin-top:-1rem;
+}
+
+#collapse-show {
+    margin-top:1.5rem;
 }
 
 .footer {
