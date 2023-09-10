@@ -207,16 +207,22 @@ body {
 .horoscope-heading {
     color: rgb(248, 248, 248);
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 0.5rem;
     text-shadow: 2px 2px #000000;
+}
+
+.horoscope-h3-heading {
+    color:yellow;
+    text-shadow: 2px 2px #000000;
+    font-size:1.5rem;
 }
 
 
 .aries-image {
     mix-blend-mode: multiply;
-    width:8rem;
-    height:8rem;
-    margin-top:-1rem;
+    width:7rem;
+    height:7rem;
+    float:right;
     
 }
 
