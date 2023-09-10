@@ -201,7 +201,7 @@ body {
     margin-bottom: 1.5rem;
     margin-top:1.5rem;
     border-radius: 25px;
-    padding:2rem;
+    padding:1.2rem;
 }
 
 .horoscope-heading {
@@ -218,7 +218,7 @@ body {
 }
 
 
-.aries-image {
+.horoscope-card-img {
     mix-blend-mode: multiply;
     width:7rem;
     height:7rem;
