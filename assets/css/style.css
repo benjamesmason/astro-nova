@@ -172,13 +172,26 @@ body {
     width: 100%;
     height:auto;
 }
-/* Responsive layout - makes the 3 columns */
+/* Responsive layout - makes 3 columns */
 @media screen and (max-width: 600px) {
     .column {
         -ms-flex: 33.3%;
         flex: 33.3%;
         max-width: 33.3%;
     }
+}
+
+/* Responsive layout - removes text-box and centers content on smaller screens when in landscape orientation */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+
+    .text-box {
+        display: none;
+    }
+
+    .astronova-plus-subheading {
+        margin-top:4rem;
+    }
+
 }
 
 .thumbnail:hover {
@@ -219,6 +232,11 @@ body {
     text-shadow: 2px 2px #000000;
 }
 
+.astronova-plus-subheading {
+    color: rgb(222, 220, 83);
+    text-shadow: 1px 1px #000000;
+    }
+}
 .sign-up-heading h3 {
     color: yellow;
 }
@@ -264,6 +282,9 @@ body {
     margin-top:1rem;
 }
 
+.form-outline label {
+    color: yellow;
+}
 
 .footer {
     background-color: black !important;
