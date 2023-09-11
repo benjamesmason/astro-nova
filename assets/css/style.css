@@ -35,6 +35,7 @@ body {
     font-size: large;
 }
 
+
 .alert-custom {
     color: white;
     background-color: rgb(7, 6, 6);
@@ -191,7 +192,14 @@ body {
     height: 100%;
     background: url('../images/galaxy-background.jpg') no-repeat center center fixed ;
     background-size: cover;
-    ;
+    display: flex;
+    position: relative;
+}
+
+.display-container2 {
+    height: 90vh;
+    background: url('../images/sun-background.jpg') no-repeat center center ;
+    background-size: cover;
     display: flex;
     position: relative;
 }
@@ -204,11 +212,19 @@ body {
     padding:1.2rem;
 }
 
-.horoscope-heading {
+.headings {
     color: rgb(248, 248, 248);
     font-weight: 700;
     margin-bottom: 0.5rem;
     text-shadow: 2px 2px #000000;
+}
+
+.sign-up-heading h3 {
+    color: yellow;
+}
+
+.sign-up-heading span {
+    color:yellow;
 }
 
 .horoscope-h3-heading {
@@ -229,6 +245,25 @@ body {
 #collapse-show {
     margin-top:1.5rem;
 }
+
+.astronovaplus-list {
+    list-style-type: none;
+    margin: 25px 25px 0 0;
+    font-size: 1.2rem;
+}
+
+
+.astronovaplus-list i {
+    margin-right: 10px;
+    font-size:x-large;
+}
+ 
+.text-box {
+    background-color: rgba(48, 48, 48, 0.5);
+    border-radius: 25px;
+    margin-top:1rem;
+}
+
 
 .footer {
     background-color: black !important;

@@ -31,14 +31,51 @@
         </div>
     
     </nav>
+
+    <!-- Alert and Modal-->
+    <div class="alert alert-custom font-italic text-center " role="alert"><small>
+            <button class="alert-link" data-toggle="modal" data-target="#signUpModal">SUBSCRIBE</button> to our FREE
+            Newsletter for exclusive offers and
+            announcements... </small><i class="fa-solid fa-envelope fa-sm"></i></div>
+    <!-- Modal -->
+    
+    <div class="modal modal-custom" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Subscribe to AstroNova!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="InputEmail">Email address <i class="fa-sharp fa-solid fa-at fa-lg"
+                                    style="color: #ffff00;"></i></label>
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">Join our Mailing list for exclusive offers
+                                and announcements.</small>
+                        </div>
+    
+                        <button type="submit" class="btn btn-custom">Join Us!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 <div class="display-container">
     
 <!-- Horoscope Section -->
    
         <section class="container-fluid">
-            <h1 class="text-center horoscope-heading mt-5">Your Weekly Horoscope</h1>
+            <h1 class="text-center headings mt-5">Your Weekly Horoscope</h1>
             <h3 class="horoscope-h3-heading text-center">WEEK OF September 4 - 1 0, 2023</h3>
-            <div class="row p-3">
+            <div class="row p-3 mb-4">
         
         <!-- Aries -->
         <div class="col-sm-6">
