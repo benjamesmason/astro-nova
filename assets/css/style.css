@@ -236,7 +236,7 @@ body {
     color: rgb(222, 220, 83);
     text-shadow: 1px 1px #000000;
     }
-}
+
 .sign-up-heading h3 {
     color: yellow;
 }
@@ -275,6 +275,16 @@ body {
     margin-right: 10px;
     font-size:x-large;
 }
+
+.fa-circle-check  {
+    font-size:80px;
+    color:yellow;
+}
+
+.fa-envelope-open {
+    font-size: 80px;
+    color: yellow;
+}
  
 .text-box {
     background-color: rgba(48, 48, 48, 0.5);
@@ -286,6 +296,19 @@ body {
     color: yellow;
 }
 
+
+
+.form-completion {
+    height:100vh;
+}
+
+.registration-complete {
+    margin-top:6rem;
+}
+.custom-h5 {
+    color: rgb(222, 220, 83);
+    font-style:italic;
+}
 .footer {
     background-color: black !important;
     
