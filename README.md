@@ -24,14 +24,16 @@ GITHUB PAGES
 
 - [**ASTRO NOVA** - Milestone Project 1](#astro-nova---milestone-project-1)
   - [User Experience (UX)](#user-experience-ux)
-  - [User Stories](#user-stories)
-  - [Client Goals](#client-goals)
-  - [First Time Visitor Goals](#first-time-visitor-goals)
-  - [Returning User Goals](#returning-user-goals)
-  - [Frequent User Goals](#frequent-user-goals)
+    - [User Stories](#user-stories)
+      - [Client Goals](#client-goals)
+      - [First Time Visitor Goals](#first-time-visitor-goals)
+      - [Returning User Goals](#returning-user-goals)
+      - [Frequent User Goals](#frequent-user-goals)
   - [Design](#design)
-  - [Colour Scheme](#colour-scheme)
-  - [Typography](#typography)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
 
 ---
 
@@ -108,3 +110,15 @@ The images used on the website were sourced from:
 - Logo was made by myself using [Adobe Illustrator](https://www.adobe.com/),
 - All zodiac images were sourced from [All Free Downloads](https://all-free-download.com/) and then re-worked and designed by myself using [Adobe Illustrator](https://www.adobe.com/),
 - 3 images from expert bio's were sourced from [Pexels](https://www.pexels.com/).
+
+
+### Wireframes
+
+Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) - a wireframing software.
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![Mobile Wireframes](/documentation/wfmobile-display.png) |
+| Tablet | ![Tablet Wireframes](documentation/wftablet-display.png) |
+| Desktop | ![Desktop Wireframes](documentation/wfdesktop-display.png) |
+  
