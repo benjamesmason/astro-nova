@@ -34,6 +34,8 @@ GITHUB PAGES
     - [Typography](#typography)
     - [Imagery](#imagery)
     - [Wireframes](#wireframes)
+    - [Features](#features)
+      - [Current Features](#current-features)
 
 ---
 
@@ -116,9 +118,45 @@ The images used on the website were sourced from:
 
 Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) - a wireframing software.
 
-| Size | Screenshot |
+| Display | Screenshot |
 | --- | --- |
 | Mobile | ![Mobile Wireframes](/documentation/wfmobile-display.png) |
 | Tablet | ![Tablet Wireframes](documentation/wftablet-display.png) |
 | Desktop | ![Desktop Wireframes](documentation/wfdesktop-display.png) |
   
+### Features
+
+#### Current Features
+
+The Astro Nova website consists of four main pages: Home, Experts, Horoscopes and AstroNova+ and two hidden pages that you are directed to upon completion of featured forms.
+
+Some features run through all of them. These are:
+
+- Page Logo - This includes the main page title (Astro Nova). Its black theme and design compliment the website design well, and the moon, planet and star graphics featured are fitting for the scope of the website. It appears on the top of every page within the website. It also works as a clickable link that will direct you back to the home page from any other page where featured
+  
+![Page Logo](documentation/logo.png)
+
+- The navigation bar - This feature stretches across the entire width of the screen and consists of links to all four available pages of the website. It was created using Boostrap and is fully responsive, scaling down to a hamburger style menu when viewed on small devices. The active tab will display a white colour when selected for all webpages other than "AstroNova+" (this is styled differently to draw user attention) while the remaining three are muted. All links also change color when a user hovers over them.
+  
+![Navigation Bar](documentation/navbar.png)
+
+- Alert & Modal - The Alert and Modal also feautures on all four main webpages and also stretches across the entire width of the screen. It consists of the centered text "SUBSCRIBE to our FREE Newsletter for exclusive offers and announcements..." followed by a fontawesome mail icon, when a user clicks the capitalized word "SUBSCRIBE" this toggles the Modal into action, when there a user can decide to Subscribe to AstroNova by inputting their email address followed by clicking the button labelled "Join Us!" this will direct a user to a new webpage (subscribed.html) to instruct the user that they have successfuly signed up.
+
+![Alert & Modal](documentation/modal-view.png)
+![Completed Subscription Form](documentation/completed-subscription.png)
+
+- Page Footer - This also stretches across the entire width of the screen. It consists of styled social media links in the center as well as some copyright information just below. This is fully responsive. Social media icons change their colour to bright yellow when a user hovers over them.
+
+![Page Footer](documentation/footer.png)
+
+
+Home Page features:
+
+- Jumbotron - The Jumbotron is the main focus and feature on the home page working as a direct call to action for new and visiting users, this adresses one of our main User Goals "To attract a higher level of premuim members through the + membership incentives." The Jumbotron was created using Bootstrap but has been fully styled with custom CSS. 
+
+![Jumbotron](documentation/jumbotron.png)
+
+
+- Clickable Icons - This section is made up of two rows (on larger screens) and four rows (on smaller screens). It features 12 clickable icons that direct you to the horoscopes.html webpage. Each icon is custom designed and has been styled. Each icon will appear muted in colour when a user hover over it. I thought this to be a fun and functional way that users right from the homepage can engage and navigate interactively through the website and think this would work effectively.
+
+![Home Page Basic Info](documentation/zodiac-icons.png)
