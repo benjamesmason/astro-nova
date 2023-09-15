@@ -51,8 +51,8 @@ The website features some basic information where users can keep updated with th
 
 - To attract both beginner and experienced astrolgy enthusiasts.
 - To attract a higher level of premuim members through the + membership incentives.
-- To have an online presense which is both visually appealing and responsive which holds the ability for everybody to access and enjoy.
-- To be inclusive for all readers, and easy and enjoyable to navigate.
+- To have an online presense which is both visually appealing and responsive which holds the ability for everybody to access and enjoy at all times.
+- To be inclusive for all readers while easy and enjoyable to navigate.
 - To welcome and inspire a passion for Astrology and Spiritualism, and to be a safe place of trust for its visitors.
  
 
@@ -157,6 +157,40 @@ Home Page features:
 ![Jumbotron](documentation/jumbotron.png)
 
 
-- Clickable Icons - This section is made up of two rows (on larger screens) and four rows (on smaller screens). It features 12 clickable icons that direct you to the horoscopes.html webpage. Each icon is custom designed and has been styled. Each icon will appear muted in colour when a user hover over it. I thought this to be a fun and functional way that users right from the homepage can engage and navigate interactively through the website and think this would work effectively.
+- Clickable Icons - This section is made up of two columns (on larger screens) and four columns (on smaller screens). It features 12 clickable icons that direct you to the horoscopes.html webpage. Each icon is custom designed and has been styled. Each icon will appear muted in colour when a user hover over it. I thought this to be a fun and functional way that users right from the homepage can engage and navigate interactively through the website and think this would work effectively.
 
-![Home Page Basic Info](documentation/zodiac-icons.png)
+![Clickable Zoidac Icons](documentation/zodiac-icons.png)
+
+
+Experts Page features:
+
+- Introduction - A short introduction to the webpage prompting users to scroll down for further content. Headings have been styled simply with CSS, the h3 heading has been styled a shade of yellow to draw reader attention as well as the numbers "24/7" as a stand alone from the h5 heading, this addresses one of our user goals "To have an online presense which is both visually appealing and responsive which holds the ability for everybody to access and enjoy **at all times.**" 
+
+![Experts Intro](documentation/experts-intro.png)
+
+- Experts Profiles - This section is comprised of three seperate "Expert Profiles". Each profile has been styled with CSS, the profile image and relative text are both contained as one and have been given a dark grey background colour with a transparency of 0.5 to give the profile better clarity against the background image and improve user readability. A hr element has also been implemented and styled with CSS to create a yellow line divider between the expert profile name and bio.
+
+![Expert Profiles](documentation/expert-profile.png)
+
+- Mailto Link and Icon - Within each expert profile a mail icon has also been added this was sourced from website Fontawesome. These icons have been styled with CSS to change the size and colour and also have a hover effect. Each icon has been enclosed in a anchor tag that includes a Mailto link, when this is clicked by a user they will be directed to their email page or application where they will be able directly send an email of their own choosing to the related expert. This addresses one of our First time Visitor goals "To be able to easily access experts in the field all in one place that can be trusted."
+
+![Mailto Link in action](documentation/mailto-link.png)
+
+- Reviews Section - This section is comprised of two columns (larger screens) or four columns (smaller screens) in order to keep better responsive. Each review card has been styled with CSS, coloured yellow with a transparency of 0.25 and contain a speech icon sourced from website Fontawesome. 
+
+![Review section](documentation/reviews.png)
+
+
+Horoscopes Page features:
+
+- Title and heading - Webpage title, with a short h3 heading that lets the user know the date's to which the content is related. Both styled with custom CSS.
+
+![Horoscope Page. Title & Header](documentation/horoscopes_title-and-heading.png)
+
+- Horoscope cards - This section includes 12 seperate cards, one for each sign of the zodiac. On large screens two cards occupy a single row wheresas to keep better responsive smaller devices will display each card stacked on top of one another. Each card has been sized a styled with CSS and is accompanied by the relevant zodiac icon.
+
+![Horoscope card](documentation/horoscope-card.png)
+
+- Horoscope card Button - Each card incorporates a button.
+
+![Horoscope card](documentation/horoscope-card.png)
