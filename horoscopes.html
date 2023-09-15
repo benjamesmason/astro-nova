@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <title>Astro Nova</title>
+    <title>Astro Nova | Horoscopes</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/958d91a884.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+    <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-custom navbar-expand-sm ">
         <div>
+            <!-- Logo -->
             <a href="index.html" class="navbar-brand">
-                <img src="assets/images/astronova-black.webp"></a>
+                <img src="assets/images/astronova-black.webp" alt="Astro Nova"></a>
         </div>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,13 +35,14 @@
         </div>
 
     </nav>
+    <!-- Navbar End-->
 
     <!-- Alert and Modal-->
     <div class="alert alert-custom font-italic text-center " role="alert"><small>
-            <button class="alert-link" data-toggle="modal" data-target="#signUpModal">SUBSCRIBE</button> to our FREE
-            Newsletter for exclusive offers and
+            <button class="alert-link" data-toggle="modal" data-target="#signUpModal" 
+                aria-label="Subscribe here">SUBSCRIBE</button> to our FREE Newsletter for exclusive offers and
             announcements... </small><i class="fa-solid fa-envelope fa-sm"></i></div>
-    <!-- Modal -->
+    <!-- Modal Content -->
 
     <div class="modal modal-custom" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
@@ -59,16 +63,17 @@
                             <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
                                 placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">Join our Mailing list for exclusive
-                                offers
-                                and announcements.</small>
+                                offers and announcements.</small>
                         </div>
 
-                        <button type="submit" class="btn btn-custom">Join Us!</button>
+                        <button type="submit" class="btn btn-custom" aria-label="Join Us!">Join Us!</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Modal End -->
+
 
     <div class="display-container">
 
@@ -80,6 +85,7 @@
             <div class="row p-3 mb-4">
 
                 <!-- Aries -->
+                
                 <div class="col-sm-6">
                     <div id="horoscope-card">
                         <img class="horoscope-card-img t-7" src="./assets/images/aries-image.png" alt="Aries Icon">
@@ -896,20 +902,13 @@
     </div>
 
     </section>
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Horoscope Section End-->
+    <!-- All Horoscope information sourced from https://www.elle.com
+    /horoscopes/weekly/  --><!-- All Horoscope vectors sourced from https://all-free-download.com/ redsigned by Ben Mason using Adobe Illustrator  -->
 
     </div>
 
+    <!-- Footer -->
     <footer class="footer text-center text-white">
         <!-- Grid container -->
         <div class="container p-4">
@@ -917,31 +916,32 @@
             <section class="social-media-icons">
                 <!-- Facebook -->
                 <a class="rounded-circle btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/"
-                    role="button" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                    role="button" aria-label="Facebook link" target="_blank" ><i class="fab fa-facebook-f"></i></a>
 
                 <!-- Twitter -->
                 <a class="rounded-circle btn btn-outline-light btn-floating m-1" href="https://www.twitter.com/"
-                    role="button" target="_blank" ><i class="fa-brands fa-x-twitter"></i></a>
+                    role="button" aria-label="Twitter link" target="_blank" ><i class="fa-brands fa-x-twitter"></i></a>
 
                 <!-- Instagram -->
                 <a class="rounded-circle btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/"
-                    role="button" target="_blank" ><i class="fab fa-instagram"></i></a>
+                    role="button" aria-label="Instagram link" target="_blank" ><i class="fab fa-instagram"></i></a>
 
                 <!-- TikTok -->
                 <a class="rounded-circle btn btn-outline-light btn-floating m-1" href="https://www.tiktok.com/"
-                    role="button" target="_blank" ><i class="fa-brands fa-tiktok"></i></a>
+                    role="button" aria-label="TikTok link" target="_blank" ><i class="fa-brands fa-tiktok"></i></a>
             </section>
-            <!-- Section: Social media -->
+            
         </div>
-        <!-- Grid container -->
-
+        
         <!-- Copyright -->
         <div class="text-center pb-2 footer small">
             © 2023 Copyright. <br> This webiste was made for educational purposes only.
         </div>
-        <!-- Copyright -->
+        
     </footer>
+    <!-- Footer End -->
 
+    <!-- JavaScript sourced from https://getbootstrap.com/ -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -951,6 +951,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <!-- JavaScript End -->
+
+
 </body>
 
 </html>
