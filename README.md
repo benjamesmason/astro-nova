@@ -36,6 +36,13 @@ GITHUB PAGES
     - [Wireframes](#wireframes)
     - [Features](#features)
       - [Current Features](#current-features)
+      - [Future Features](#future-features)
+  - [Technologies Used](#technologies-used)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+    - [Deploying the project to GitHub Pages](#deploying-the-project-to-github-pages)
+    - [Forking the GitHub repository](#forking-the-github-repository)
+    - [Making a local clone](#making-a-local-clone)
 
 ---
 
@@ -77,7 +84,8 @@ The website features some basic information where users can keep updated with th
 
 - To locate latest updated information about my horoscope from a place that I can trust.
 - To use premium member benefits, if becomming a AstroNova+ member.
-- To get in touch with experts in the field at a time that is convenient for me..
+- To get in touch with experts in the field at a time that is convenient for me.
+- To be able to sign-in direct from the website to access acount.
 
 
 
@@ -191,6 +199,106 @@ Horoscopes Page features:
 
 ![Horoscope card](documentation/horoscope-card.png)
 
-- Horoscope card Button - Each card incorporates a button.
+- Horoscope card Button - Each card incorporates a button and every button tag has been given the  Bootstrap class name of "collapse", when a user selects the button this toggles the collapsable text into action. This method of displaying text makes accesibility to information easier and the webpage as a whole more managable as a user doesn't need to scroll through lots of text that isn't applicable to them. This feature therefore addresses one of our First time Visitor Goals "To navigate the website with ease, and access the simple information required quickly and without hassle."
 
-![Horoscope card](documentation/horoscope-card.png)
+![Horoscope card](documentation/button-collapse.png)
+
+
+AstroNova + Page features:
+
+- Title and heading - Webpage title, with a short h3 heading explaining free trial. Both heading elements have been styled to stand out behind the webpage background image and have been given a text-shadow CSS property.
+
+![AstroNova+ Page. Title & Header](documentation/astronovaplus_title-and-heading.png)
+
+- Checklist - A checklist has been added to accompany the above headings. This has been made with the use of tick icons sourced from the website FontAwesome and styled together with custom CSS to display an unordered list of incentives that could appeal to website users, this addresses one of our client goals "To attract a higher level of premuim members through the + membership incentives" All incentives have been grouped and styled in a semi-transparent box to grab user attention and improve user readability.
+
+![Checklist](documentation/checklist.png)
+
+- Form - The registration form is comprised of two text inputs, one password input, one date input and one checkbox input followed by a sumbit button. The form was created with Bootstrap classes but also has custom CSS. Submission of the form will allow the user to access Astro Nova with a premium membership and unlock all benefits. When the form is sumbitted successfully the user will be directed to a registration complete page that will thank them for joining AstroNova+. The form is easily readable free of background image and simple to follow which addresses one of our First time Visitor Goals "To be able to sign-up for memberships and newsletters quickly and simply."
+
+![Form](documentation/form.png)
+![Form](documentation/completed-form.png)
+
+
+#### Future Features
+
+Sign in Feature - to allow members to be able to access their accounts and benefits direct from the website. (to meet frequent user goal).
+
+Message us feature - a working "message us" feature implemented in a form layout that can be used to actualy recieve and respond to user queries.
+
+Planet tracker feature - Additional webpage that would allow users to track in real time planetary and star alignments and what that would mean for them astrologicaly.
+
+
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - Used as the basic building block for the project and to structure the content.
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+  - Used to style all the web content across the project.
+
+- [Bootstrap](https://getbootstrap.com/)
+  - Used as the main framework to make the project responsive.
+
+- [JavaScript](https://www.javascript.com/)
+  - Used for the Bootstrap Modal across the website.
+
+- [Google Fonts](https://fonts.google.com/)
+  - Used to obtain the Jost font.
+
+- [Font Awesome](https://fontawesome.com/)
+  - Used to obtain the social media, moon and mail icons used.
+
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+  - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+
+- [Github](https://github.com/)
+  - Used to store code for the project after being pushed.
+
+- [Git](https://git-scm.com/)
+  - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+- [Code Anywhere](https://codeanywhere.com/)
+  - Used as the development enviroment.
+
+- [Balsamiq](https://balsamiq.com/)
+  - Used to create the wireframes for the project.
+
+- [Free Convert](https://www.freeconvert.com/jpg-to-webp)
+  - used to convert jpg images to webp format.
+
+
+## Testing
+
+
+
+
+## Deployment
+
+### Deploying the project to GitHub Pages
+
+1. Log in to your GitHub account and locate the repository you would like to deploy.
+2. Navigate to the "Settings" tab at the top of your selected repository.
+3. Select "Pages" from the menu on the left-hand side of the screen.
+4. Make sure the "Select" dropdown menu shows "Deploy from a branch".
+5. From the "Branch" dropdown menu select "Main" and click "Save".
+6. The page will automatically refresh and display the link to your deployed website.
+
+### Forking the GitHub repository
+
+By forking the repository, you make a copy of the original repository on your GitHub account to view or to make changes to, without affecting the original repository.
+
+1. Log in to your GitHub account and locate the repository you would like to fork.
+2. At the top of the repository on the right-hand side of the screen, locate the "Fork" button.
+3. After clicking on it, you should have your own copy of the original repository in your GitHub account.
+
+### Making a local clone
+
+Making a clone is basically making a copy of the selected repository.
+
+1. Log in to your GitHub account and locate the repository you would like to clone.
+2. Click on the "Code" button just under the repository name.
+3. Copy the HTTPS link from the website address bar.
+4. Open a GitBash terminal and locate the directory where you want to place the clone.
+5. Type 'git clone' and then paste the URL you copied earlier.
+6. Press enter. Then your local clone will be created.
