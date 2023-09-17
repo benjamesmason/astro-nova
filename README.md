@@ -39,6 +39,9 @@ GITHUB PAGES
       - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
+  - [Code Validation](#code-validation)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
   - [Deployment](#deployment)
     - [Deploying the project to GitHub Pages](#deploying-the-project-to-github-pages)
     - [Forking the GitHub repository](#forking-the-github-repository)
@@ -269,6 +272,29 @@ Planet tracker feature - Additional webpage that would allow users to track in r
 
 
 ## Testing
+
+## Code Validation
+
+[The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used to validate every page of the project to ensure there were no syntax errors. The results clearly showed that the website stays in compliance with the standards and recommendations set by the World Wide Web Consortium.
+
+### HTML Validation
+
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files. No errors or warnings were found.
+
+| Page | W3C URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2F) | ![index.html validation](documentation/index.html_validation.png) | Pass: No Errors |
+| Experts | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2Fexperts.html) | ![experts.html validation](documentation/experts.html_validation.png) | Pass: No Errors |
+| Horoscopes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2Fhoroscopes.html) | ![horoscopes.html validation](documentation) | Pass: No Errors |
+| Form | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FNataliaCzeladka.github.io%2Fcelestial-buddies%2Fform.html) | ![form.html validation](docs/form.html_validation.png) | Pass: No Errors |
+
+### CSS Validation
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file. No errors were found.
+
+| File | Jigsaw URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator) | ![style.css validation](docs/style.css_validation.png) | Pass: No Errors |
 
 
 
