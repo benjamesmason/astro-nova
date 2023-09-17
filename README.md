@@ -39,9 +39,11 @@ GITHUB PAGES
       - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
-  - [Code Validation](#code-validation)
+    - [Code Validation](#code-validation)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
+    - [Browser Compatibility](#browser-compatibility)
+    - [Responsiveness](#responsiveness)
   - [Deployment](#deployment)
     - [Deploying the project to GitHub Pages](#deploying-the-project-to-github-pages)
     - [Forking the GitHub repository](#forking-the-github-repository)
@@ -273,7 +275,8 @@ Planet tracker feature - Additional webpage that would allow users to track in r
 
 ## Testing
 
-## Code Validation
+
+### Code Validation
 
 [The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used to validate every page of the project to ensure there were no syntax errors. The results clearly showed that the website stays in compliance with the standards and recommendations set by the World Wide Web Consortium.
 
@@ -285,16 +288,39 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2F) | ![index.html validation](documentation/index.html_validation.png) | Pass: No Errors |
 | Experts | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2Fexperts.html) | ![experts.html validation](documentation/experts.html_validation.png) | Pass: No Errors |
-| Horoscopes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2Fhoroscopes.html) | ![horoscopes.html validation](documentation) | Pass: No Errors |
-| Form | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FNataliaCzeladka.github.io%2Fcelestial-buddies%2Fform.html) | ![form.html validation](docs/form.html_validation.png) | Pass: No Errors |
+| Horoscopes | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2Fhoroscopes.html) | ![horoscopes.html validation](documentation/horoscopes.html_validation.png) | Pass: No Errors |
+| AstroNova+ | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2Fastronova-plus.html) | ![astronova-plus.html validation](documentation/astronova-plus.html_validation.png) | Pass: No Errors |
+| Success your Subscribed! | [W3C](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2Fsubscribed.html%3F) | ![subscribed.html validation](documentation/subscribed.html_validation.png) | Pass: No Errors |
+| Success your Registered! | [W3C](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbenjamesmason.github.io%2Fastro-nova%2Fregistered.html%3F) | ![registered.html validation](documentation/registered.html_validation.png) | Pass: No Errors |
 
 ### CSS Validation
 
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file. No errors were found.
+I have used [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file. No errors were found.
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator) | ![style.css validation](docs/style.css_validation.png) | Pass: No Errors |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator) | ![style.css validation](documentation/style.css_validation.png) | Pass: No Errors |
+
+
+### Browser Compatibility
+
+I have tested my deployed the AstroNova website on multiple browsers to check for compatibility issues.
+
+| Browser | Screenshot | Notes |
+| --- | --- | --- |
+| Chrome | ![screenshot](documentation/chrome_view.png) | Works as expected |
+| Firefox | ![screenshot](documentation/firefox_view.png) | Works as expected |
+| Edge | ![screenshot](documentation/edge_view.png) | Works as expected |
+| Opera | ![screenshot](documentation/opera_view.png) | Works as expected |
+
+### Responsiveness
+
+I have tested my deployed the AstroNova website on multiple device frames throughout it's creation to check for responsiveness issues. It appears to responds well to different screen sizes which ensures that users can access and navigate website content with ease regardless of the device they use.
+
+| Device | Screenshot | Notes |
+| --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/mobile_view.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/ipad_view.png) | Works as expected |
 
 
 
