@@ -48,6 +48,8 @@ GITHUB PAGES
     - [Deploying the project to GitHub Pages](#deploying-the-project-to-github-pages)
     - [Forking the GitHub repository](#forking-the-github-repository)
     - [Making a local clone](#making-a-local-clone)
+  - [Credits](#credits)
+    - [Code](#code)
 
 ---
 
@@ -323,8 +325,6 @@ I have tested my deployed the AstroNova website on multiple device frames throug
 | Tablet (DevTools) | ![screenshot](documentation/ipad_view.png) | Works as expected |
 
 
-
-
 ## Deployment
 
 ### Deploying the project to GitHub Pages
@@ -354,3 +354,24 @@ Making a clone is basically making a copy of the selected repository.
 4. Open a GitBash terminal and locate the directory where you want to place the clone.
 5. Type 'git clone' and then paste the URL you copied earlier.
 6. Press enter. Then your local clone will be created.
+
+
+## Credits
+
+### Code
+
+- [W3Schools](https://www.w3schools.com/)
+  - Helping to find to solution with modal operating issues by use of #data-target element.
+  - Example use of the hover affect for CSS.
+  - 
+
+- [Matt Rudge, Code Institute](https://codeinstitute.net/)
+  - Callout container stylings on Home Page.
+  - Jumbotron layout (inspired from WhiskeyDrop website)
+  
+- [MD Bootstrap](https://mdbootstrap.com/docs/)
+  - Inspiration for footer layout.
+
+- [Bootstrap Verson 4.1.3](https://getbootstrap.com/)
+  - Bootstrap Library used throughout the project for responsivity such as container-fluid class.
+  - Bootstrap Docs for help and inspiration for form layout.
