@@ -44,6 +44,7 @@ GITHUB PAGES
     - [CSS Validation](#css-validation)
     - [Browser Compatibility](#browser-compatibility)
     - [Responsiveness](#responsiveness)
+    - [Lighthouse Testing](#lighthouse-testing)
   - [Deployment](#deployment)
     - [Deploying the project to GitHub Pages](#deploying-the-project-to-github-pages)
     - [Forking the GitHub repository](#forking-the-github-repository)
@@ -325,6 +326,26 @@ I have tested my deployed the AstroNova website on multiple device frames throug
 | Tablet (DevTools) | ![screenshot](documentation/ipad_view.png) | Works as expected |
 
 
+### Lighthouse Testing
+
+I have tested my deployed project using the Lighthouse Audit tool to check for any major issues. Inital scores were quite low, because the website contained images in jpeg format. For this reason, I have converted all of my jpeg image files to webp format. It has greatly improved the performance.
+
+| Page | Size | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | Mobile | ![screenshot](documentation/index.html_mobile-lighthouse.png) | Few warnings |
+| Home | Desktop | ![screenshot](documentation/index.html_desktop-lighthouse.png) | Few warnings |
+| Experts | Mobile | ![screenshot](documentation/experts.html_mobile-lighthouse.png) | Few warnings |
+| Experts | Desktop | ![screenshot](documentation/experts.html_desktop-lighthouse.png) | Few warnings |
+| Horoscopes | Mobile | ![screenshot](documentation/horoscopes.html_mobile-lighthouse.png) | Few warnings |
+| Horoscopes | Desktop | ![screenshot](documentation/horoscopes.html_desktop-lighthouse.png) | Few warnings |
+| AstroNova+ | Mobile | ![screenshot](documentation/astronovaplus_mobile-lighthouse.png) | Few warnings |
+| AstroNova+ | Desktop | ![screenshot](documentation/astronovaplus_desktop-lighthouse.png) | Few warnings |
+| Registered | Mobile | ![screenshot](documentation/registered.html_mobile-lighthouse.png) | Some minor warnings |
+| Registered | Desktop | ![screenshot](documentation/registered.html_desktop-lighthouse.png) | Some minor warnings |
+| Subscribed | Mobile | ![screenshot](documentation/subscribed.html_mobile-lighthouse.png) | Some minor warnings |
+| Subscribed| Desktop | ![screenshot](documentation/subscribed.html_desktop-lighthouse.png) | Some minor warnings |
+
+
 ## Deployment
 
 ### Deploying the project to GitHub Pages
@@ -361,13 +382,13 @@ Making a clone is basically making a copy of the selected repository.
 ### Code
 
 - [W3Schools](https://www.w3schools.com/)
-  - Helping to find to solution with modal operating issues by use of #data-target element.
-  - Example use of the hover affect for CSS.
-  - 
+  - Helping to find to solution for modal operating issues by use of #data-target element not correctly implemented..
+  - Research for example use of the hover affect for CSS for clickable elements.
 
 - [Matt Rudge, Code Institute](https://codeinstitute.net/)
   - Callout container stylings on Home Page.
   - Jumbotron layout (inspired from WhiskeyDrop website)
+  - Inspiration behind styled "hr" element to form a solid decorational line.
   
 - [MD Bootstrap](https://mdbootstrap.com/docs/)
   - Inspiration for footer layout.
