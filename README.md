@@ -50,7 +50,7 @@ GITHUB PAGES
     - [First Time User Goals](#first-time-user-goals)
     - [Returning User Goals](#returning-user-goals-1)
     - [Frequent User Goals](#frequent-user-goals-1)
-  - [Fixed Bugs](#fixed-bugs)
+  - [Known Bugs \& Fixs](#known-bugs--fixs)
   - [Deployment](#deployment)
     - [Deploying the project to GitHub Pages](#deploying-the-project-to-github-pages)
     - [Forking the GitHub repository](#forking-the-github-repository)
@@ -394,7 +394,7 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 | As a frequent user, I want to use premium member benefits, if becomming a AstroNova+ member. | As explained in Future Feature Section this would be something I would like to implement in the future so users can access their accounts and benefits direct from the website. |
 | As a frequent user, I want to to be able to sign-in direct from the website to access my account.| As explained in Future Features Section a sign-in feature would be something I would like to apply in future in order to fulfil this user goal.  |
 
-## Fixed Bugs
+## Known Bugs & Fixs
 
 
 

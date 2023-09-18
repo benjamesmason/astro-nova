@@ -6,14 +6,30 @@ body {
     color: #a2a2a2 !important;
 }
 
+.headings {
+    color: rgb(248, 248, 248);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px #000000;
+}
+
+.headings-yellow {
+    color: #cfcf4f;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;
+}
+
+/* Navigation Bar */
+
+
 .navbar-custom {
     background-color: rgb(7, 6, 6);
     font-family: "Jost";
     font-weight: 400;
     color: #ffff;
-
 }
 
+/* Navigation Bar - Logo */
 .navbar-brand img {
     height: 100px;
     float: left;
@@ -35,6 +51,8 @@ body {
     font-size: large;
 }
 
+/* Alert & Modal */
+
 
 .alert-custom {
     color: white;
@@ -52,7 +70,6 @@ body {
 }
 
 .alert-custom button:hover {
-    
     color: rgb(165, 181, 59);
 }
 
@@ -62,7 +79,6 @@ body {
 
 .modal-custom .modal-content {
     background-color: rgb(48, 48, 48);
-          
 }
 
 .btn-custom {
@@ -72,11 +88,15 @@ body {
 .btn-custom:hover {
     background-color: rgb(165, 181, 59);
 }
+
 .close {
     color: yellow !important;
-
 }
 
+/* HOME PAGE */
+
+
+/* Credit: Code derived from WhiskeyDrop walkthrough taken from https://codeinstitute.net/ and edited for project needs.*/
 .callout-container {
     padding-top: 20%;
     padding-bottom: 20%;
@@ -89,16 +109,15 @@ body {
     justify-content: center;
     position: relative;
     margin-top: -20px;
-
 }
 
 #cover-text {
     background-color: rgba(48, 48, 48, 0.5);
     padding: 25px;
     border-radius: 25px;
-
 }
 
+/* Jumbotron */
 .jumbotron {
     margin-top: -75px;
 }
@@ -108,26 +127,22 @@ body {
     font-weight: 700;
     margin-bottom: 30px;
     text-shadow: 2px 2px #000000;
-
 }
 
 .fa-solid {
     color: white;
     margin-bottom: 30px;
-
 }
 
 .jumbotron .lead {
     color: white;
     font-weight: 400;
-
 }
 
 .jumbotron small {
     font-size: 80%;
     font-style: italic;
     color: #f0f0f0;
-
 }
 
 .btn-custom {
@@ -136,16 +151,17 @@ body {
     color: black;
 }
 
+/* Zodiac Section */
 #zodiacs {
     margin-bottom:30px;
 }
-
 
 .zodiac-section-header {
     color: rgb(248, 248, 248);
     font-weight: 600
 }
 
+/* Credit: Code taken from https: //stackoverflow.com/ and edited for project needs.  */
 .row {
     display: grid;
     justify-content: center;
@@ -156,14 +172,11 @@ body {
     padding: 0 4px;
 }
 
-/* Create 6 equal columns */
 .column {
     -ms-flex: 15%;
-    /* IE10 */
     flex: 15%;
     max-width: 15%;
     padding: 0 9px;
-    ;
 }
 
 .column img {
@@ -173,54 +186,19 @@ body {
     height:auto;
     opacity:0.7;
 }
-/* Responsive layout - makes 3 columns */
-@media screen and (max-width: 600px) {
-    .column {
-        -ms-flex: 33.3%;
-        flex: 33.3%;
-        max-width: 33.3%;
-    }
-}
-
-/* Responsive layout - removes text-box and centers content on smaller screens when in landscape orientation */
-@media screen and (max-width: 768px) and (orientation: landscape) {
-
-    .text-box {
-        display: none;
-    }
-
-    .astronova-plus-subheading {
-        margin-top:4rem;
-    }
-
-}
 
 .thumbnail:hover {
     
     opacity: 0.25;
     transition: .5s ease;
-    
 }
+
+
+/* HOROSCOPES PAGE */
 
 .display-container {
     height: 100%;
     background: url('../images/galaxy-background-darker.webp') no-repeat center center fixed ;
-    background-size: cover;
-    display: flex;
-    position: relative;
-}
-
-.display-container2 {
-    height: 90vh;
-    background: url('../images/sun-background.jpg') no-repeat center center ;
-    background-size: cover;
-    display: flex;
-    position: relative;
-}
-
-.display-container3 {
-    height: 100%;
-    background: url('../images/galaxy-background-darker.webp') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     position: relative;
@@ -234,30 +212,81 @@ body {
     padding:1.2rem;
 }
 
+.horoscope-h3-heading {
+    color: yellow;
+    text-shadow: 2px 2px #000000;
+    font-size: 1.5rem;
+}
+
+.horoscope-card-img {
+    mix-blend-mode: multiply;
+    width: 7rem;
+    height: 7rem;
+    float: right;
+}
+
+#collapse-show {
+    margin-top: 1.5rem;
+}
+
+
+/* EXPERTS PAGE */
+
+.display-container3 {
+    height: 100%;
+    background: url('../images/galaxy-background-darker.webp') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.text-box {
+    background-color: rgba(48, 48, 48, 0.5);
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+
+.expert-readers-textbox {
+    color: rgb(210, 210, 210);
+    margin-top: 5rem;
+}
+
+.readerprofiles {
+    background-color: rgba(48, 48, 48, 0.5);
+    border-radius: 25px;
+    margin-top: 3rem;
+}
+/* Reader Profile Image styling */
+.reader-img {
+    height: 250px;
+    max-width: 100%;
+    margin-top: 1.5rem;
+}
+
+.yellow-divider {
+    background-color: #cfcf4f;
+    width: 100%;
+    height: 5px;
+    border: 0;
+    margin-bottom: -1rem;
+}
+
+/* Review box styling */
 .review-card {
     background-color: rgba(211, 203, 36, 0.25);
     margin-top: 1rem;
     padding: 1rem;
 }
 
-.fa-regular, .fa-comment-dots {
-    float:right;
-    color:white;
-    font-size:2.5rem;
-    opacity: 0.5;
-}
 
-.headings {
-    color: rgb(248, 248, 248);
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    text-shadow: 2px 2px #000000;
-}
+/* ASTRONOVA+ PAGE */
 
-.headings-yellow {
-    color: #cfcf4f;
-    font-weight: 700;
-    text-shadow: 2px 2px #000000;
+.display-container2 {
+    height: 90vh;
+    background: url('../images/sun-background.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    position: relative;
 }
 
 .astronova-plus-subheading {
@@ -269,27 +298,13 @@ body {
     color: yellow;
 }
 
+.custom-h5 {
+    color: rgb(222, 220, 83);
+    font-style: italic;
+}
+
 .sign-up-heading span {
     color:yellow;
-}
-
-.horoscope-h3-heading {
-    color:yellow;
-    text-shadow: 2px 2px #000000;
-    font-size:1.5rem;
-}
-
-
-.horoscope-card-img {
-    mix-blend-mode: multiply;
-    width:7rem;
-    height:7rem;
-    float:right;
-    
-}
-
-#collapse-show {
-    margin-top:1.5rem;
 }
 
 .astronovaplus-list {
@@ -298,53 +313,11 @@ body {
     font-size: 1.2rem;
 }
 
-
 .astronovaplus-list i {
     margin-right: 10px;
     font-size:x-large;
 }
 
-.fa-circle-check  {
-    font-size:80px;
-    color:yellow;
-}
-
-.fa-envelope-open {
-    font-size: 80px;
-    color: yellow;
-}
- 
-.text-box {
-    background-color: rgba(48, 48, 48, 0.5);
-    border-radius: 25px;
-    margin-top:1rem;
-}
-
-.expert-readers-textbox {
-    color:rgb(210, 210, 210);
-    margin-top:5rem;
-}
-
-.readerprofiles {
-    background-color: rgba(48, 48, 48, 0.5);
-    border-radius: 25px;
-    margin-top: 3rem;
-}
-
-.yellow-divider {
-    background-color:#cfcf4f;
-    width: 100%;
-    height: 5px;
-    border: 0;
-    margin-bottom:-1rem;
-}
-
-
-.reader-img {
-    height:250px;
-    max-width:100%;
-    margin-top:1.5rem;
-}
 .form-outline label {
     color: yellow;
 }
@@ -353,18 +326,64 @@ body {
     height:100vh;
 }
 
+
+/* REGISTERED.HTML, SUBSCRIBED.HTML */
+
 .registration-complete {
-    margin-top:6rem;
+    margin-top: 6rem;
 }
-.custom-h5 {
-    color: rgb(222, 220, 83);
-    font-style:italic;
+
+/* FONTAWESOME ICON STYLINGS */
+
+.fa-regular,
+.fa-comment-dots {
+    float: right;
+    color: white;
+    font-size: 2.5rem;
+    opacity: 0.5;
 }
+
+.fa-circle-check {
+    font-size: 80px;
+    color: yellow;
+}
+
+.fa-envelope-open {
+    font-size: 80px;
+    color: yellow;
+}
+
+
+/* FOOTER */
 .footer {
     background-color: black !important;
-    
 }
 
 .social-media-icons .btn:hover {
     background-color: yellow;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Responsive layout - zodiac icons on Home Page */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 33.3%;
+        flex: 33.3%;
+        max-width: 33.3%;
+    }
+}
+
+/* Responsive layout - removes text-box from AstroNova+ Page - centers content on smaller screens when in landscape orientation */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+
+    .text-box {
+        display: none;
+    }
+
+    .astronova-plus-subheading {
+        margin-top: 4rem;
+    }
+
 }
