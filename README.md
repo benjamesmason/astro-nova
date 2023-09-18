@@ -45,12 +45,21 @@ GITHUB PAGES
     - [Browser Compatibility](#browser-compatibility)
     - [Responsiveness](#responsiveness)
     - [Lighthouse Testing](#lighthouse-testing)
+  - [User Stories Testing](#user-stories-testing)
+    - [Client Goals](#client-goals-1)
+    - [First Time User Goals](#first-time-user-goals)
+    - [Returning User Goals](#returning-user-goals-1)
+    - [Frequent User Goals](#frequent-user-goals-1)
+  - [Fixed Bugs](#fixed-bugs)
   - [Deployment](#deployment)
     - [Deploying the project to GitHub Pages](#deploying-the-project-to-github-pages)
     - [Forking the GitHub repository](#forking-the-github-repository)
     - [Making a local clone](#making-a-local-clone)
   - [Credits](#credits)
     - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -94,7 +103,6 @@ The website features some basic information where users can keep updated with th
 - To use premium member benefits, if becomming a AstroNova+ member.
 - To get in touch with experts in the field at a time that is convenient for me.
 - To be able to sign-in direct from the website to access acount.
-
 
 
 ## Design
@@ -258,7 +266,7 @@ Planet tracker feature - Additional webpage that would allow users to track in r
   - Used to obtain the social media, moon and mail icons used.
 
 - [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
-  - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+  - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness on a wide range of device viewpoints across the project.
 
 - [Github](https://github.com/)
   - Used to store code for the project after being pushed.
@@ -346,6 +354,50 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 | Subscribed| Desktop | ![screenshot](documentation/subscribed.html_desktop-lighthouse.png) | Some minor warnings |
 
 
+## User Stories Testing
+
+### Client Goals
+
+| User Stories | Completed? |
+| --- | --- |
+| As a client I would like to attract both beginner and experienced astrolgy enthusiasts to the website. | ✔️ |
+| As a client I would like to attract a higher number of premuim members through the + membership incentives. | ✔️ |
+| As a client I would like this website to have an online presense which is both visually appealing and responsive that allows the ability for everybody to access and enjoy at all times. | ✔️ |
+| As a client I want a website that is inclusive for all readers while easy and enjoyable to navigate.  | ✔️ |
+| As a client I want to welcome and inspire a passion for Astrology and Spiritualism through a webiste, and to be a safe place of trust and joy for its users. | ✔️ |
+
+### First Time User Goals
+
+| User Stories | Completed? |
+| --- | --- |
+| As a first time user, I want to opportunity to be able to learn more about astrology. | ✔️ |
+| As a first time user, I want to be able to access experts in the field all in one place that can be trusted. | ✔️ |
+| As a first time user, I want to navigate a website with ease, and simply access the information I require quickly and without hassle. | ✔️ |
+| As a first time user, I want to be able to sign-up for memberships and newsletters quickly and simply.  | ✔️ |
+| As a first time user, I want to be able to find the website Social media accounts easily and access them all in one place.  | ✔️ |
+| As a first time user, I want to have an overall enjoyable and positive experience while visitiing the a website. | ✔️ |
+| As a first time user, I want to find a website with a clear layout that looks proffesional and trustworthy. | ✔️ |
+
+### Returning User Goals
+
+| User Stories | Completed? |
+| --- | --- |
+| As a returning user, I want to access the brand's social media accounts.| ✔️ |
+| As a returning user, I should be able to locate latest updated information about my horoscope. | ✔️ |
+| As a returning user, I want to be able to choose to sign up for a premium membership and take advantage of current offers. | ✔️ |
+
+### Frequent User Goals
+
+| User Stories | Completed? |
+| --- | --- |
+| As a frequent user, I should be accessing the very latest updated information about my horoscope from a place that I can trust. | ✔️ |
+| As a frequent user, I want to use premium member benefits, if becomming a AstroNova+ member. | As explained in Future Feature Section this would be something I would like to implement in the future so users can access their accounts and benefits direct from the website. |
+| As a frequent user, I want to to be able to sign-in direct from the website to access my account.| As explained in Future Features Section a sign-in feature would be something I would like to apply in future in order to fulfil this user goal.  |
+
+## Fixed Bugs
+
+
+
 ## Deployment
 
 ### Deploying the project to GitHub Pages
@@ -396,3 +448,25 @@ Making a clone is basically making a copy of the selected repository.
 - [Bootstrap Verson 4.1.3](https://getbootstrap.com/)
   - Bootstrap Library used throughout the project for responsivity such as container-fluid class.
   - Bootstrap Docs for help and inspiration for form layout.
+
+### Content
+
+- [Elle Website](https://www.elle.com/horoscopes/weekly/) - for content contained in all twelve weekly horoscope's located in the "Horoscope Section" section of the "Horoscopes" page.
+- [Sanctuary World](https://www.sanctuaryworld.co/readers/) - for content found in each reader profile contained in the "Expert Readers" section of the "Experts" page.
+- [NASA](https://www.nasa.gov/) - Used for content inspiration throughout the project.
+- [Astrology](https://www.astrology.com/us/home.aspx) - Used for content inspiration throughout the project.
+- [AstroTalk](https://astrotalk.com/) - Used for content inspiration throughout the project.
+
+### Media
+
+Background Imagery across website + Images featured on Experts webpage:
+- [Pexels](https://www.pexels.com/),
+
+All Zodiac Images (Although not direct copies and have been reworked and designed by myself using Adobe Illustrator for the purpose of this website design).
+- [All Free Downloads](https://all-free-download.com/).
+
+### Acknowledgements
+
+- [Nigel Edwards](https://slack.com/) (College of West Anglia cohort facilitator) - for his continued support and guidance throughout this course and his words of encouragment when I've felt overwhelmed. 
+- [Code Institute Slack Community](https://code-institute-room.slack.com) - for the moral support and advice from my fellow students, this has made me feel understood and has kept me going through periods of Imposter Syndrome.
+- Tiffany, Bowie & Indie - in periods of struggle looking at my family has given me the daily reminder that everything I do is for them. Thank you to my partner for keeping our crazy ship sailing during my late nights both working and studying, and for putting up with my persistant talk of code! I love you all.
