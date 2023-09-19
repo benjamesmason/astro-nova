@@ -2,7 +2,7 @@
 
 Welcome to my First Milestone project, AstroNova.
 So...I've taken a leap of faith and enrolled in a Full Stack Development course. Am I mad? Quite possibly! 
-But I have high hopes to begin on a new journey to switch my career and become a programmer. Up to this point in my career, I have specialised mainly in Graphic Design, this is ultimately my passion, I love to be a creative and deliver quality work.
+However I have high hopes to begin on a new journey to switch my career and become a programmer. Up to this point in my career, I have specialised mainly in Graphic Design, this is ultimately my passion, I love to be a creative and deliver quality work.
 The ability to be able to merge these two visual mediums is both challenging and exciting for me.
 
 The purpose of this project is to showcase my learning and understanding of the modules and the languages I have learned this far at this point in the course, while I still have much to learn, I hope you understand my vision.
@@ -50,7 +50,8 @@ GITHUB PAGES
     - [First Time User Goals](#first-time-user-goals)
     - [Returning User Goals](#returning-user-goals-1)
     - [Frequent User Goals](#frequent-user-goals-1)
-  - [Known Bugs \& Fixs](#known-bugs--fixs)
+  - [Fixed Bugs](#fixed-bugs)
+  - [Known Bugs](#known-bugs)
   - [Deployment](#deployment)
     - [Deploying the project to GitHub Pages](#deploying-the-project-to-github-pages)
     - [Forking the GitHub repository](#forking-the-github-repository)
@@ -59,7 +60,7 @@ GITHUB PAGES
     - [Code](#code)
     - [Content](#content)
     - [Media](#media)
-    - [Acknowledgements](#acknowledgements)
+    - [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -67,15 +68,15 @@ GITHUB PAGES
 
 ### User Stories
 
-The Astro Nova website is a website designed for astrology enthusiasts that wish to engage, learn and self-develop in the spirirtual and astronomical community.
-The website features some basic information where users can keep updated with their weekly horoscope's as well as personaly get in touch with proffesional expert astrologers. The key objective of the website however is to promote AstroNova + this is a premuim charged subscription currently on offer for a one weeks trial period, where a users sign's up they will gain membership that unlocks lots of enticing benefits. 
+The Astro Nova website is a website designed for astrology enthusiasts who wish to engage, learn and self-develop in the spiritual and astronomical community.
+The website features some basic information where users can keep updated with their weekly horoscopes as well as personally get in touch with  professional expert astrologers. The key objective of the website however is to promote AstroNova + this is a premuim subscription currently on offer for a one weeks trial period, where a user sign's up they will gain membership that unlocks lots of enticing benefits.
 
 
 #### Client Goals
 
-- To attract both beginner and experienced astrolgy enthusiasts.
+- To attract both beginner and experienced astrology enthusiasts.
 - To attract a higher level of premuim members through the + membership incentives.
-- To have an online presense which is both visually appealing and responsive which holds the ability for everybody to access and enjoy at all times.
+- To have an online presence that is both visually appealing and responsive which holds the ability for everybody to access and enjoy at all times.
 - To be inclusive for all readers while easy and enjoyable to navigate.
 - To welcome and inspire a passion for Astrology and Spiritualism, and to be a safe place of trust for its visitors.
  
@@ -86,9 +87,9 @@ The website features some basic information where users can keep updated with th
 - To be able to easily access experts in the field all in one place that can be trusted.
 - To navigate the website with ease, and access the simple information required quickly and without hassle.
 - To be able to sign-up for memberships and newsletters quickly and simply.
-- To be able to find the brands Social media handles all in one place so these can be accesible from one place.
-- To have an overall enjoyable and positive experience while visitiing the site.
-- To find a website with a clear layout that looks proffesional and trustworthy. 
+- To be able to find the brands Social media handles all in one place so these can be accessible from one place.
+- To have an overall enjoyable and positive experience while visiting the site.
+- To find a website with a clear layout that looks professional and trustworthy.
 
 
 #### Returning User Goals
@@ -100,16 +101,16 @@ The website features some basic information where users can keep updated with th
 #### Frequent User Goals
 
 - To locate latest updated information about my horoscope from a place that I can trust.
-- To use premium member benefits, if becomming a AstroNova+ member.
+- To use premium member benefits, if becoming a AstroNova+ member.
 - To get in touch with experts in the field at a time that is convenient for me.
-- To be able to sign-in direct from the website to access acount.
+- To be able to sign-in direct from the website to access account.
 
 
 ## Design
 
 ### Colour Scheme
 
-The colour scheme chosen for the Astro Nova website I wanted to keep fairly simplistic. With the Genre of the website being that of space and the stars I knew very early on that I wanted to go for a "dark theme" however, I wanted to keep the website looking clean and fresh. For this reason I based my colour scheme predominantly around 2 different colour variations, Black and Yellow. I believe the common use of Blacks and Dark Greys contrasted well with the pops of bright Yellow. Using the variations of Yellow also allowed me select certain content throughout the website that I wanted to draw the readers attention to which works creatively. 
+The colour scheme chosen for the Astro Nova website I wanted to keep fairly simplistic. With the Genre of the website being that of space and the stars I knew very early on that I wanted to go for a "dark theme" However, I wanted to keep the website looking clean and fresh. For this reason I based my colour scheme predominantly around 2 different colour variations, Black and Yellow. I believe the common use of Blacks and Dark Greys contrasted well with the pops of bright Yellow. Using the variations of Yellow also allowed me select certain content throughout the website that I wanted to draw the reader's attention to which works creatively. 
 
 ![Colour Palette](/documentation/colour-palette.png)
 I used [Coolors](https://coolors.co/000000-303030-484848-ffff00-cfcf4f) to generate my colour palette for the purpose of visual description.
@@ -117,7 +118,7 @@ I used [Coolors](https://coolors.co/000000-303030-484848-ffff00-cfcf4f) to gener
 
 ### Typography
 
-Because my main design vision for the Astro Nova Website was based around a clean and sleek visual I didn't feel it neccesary to overcomplicate when it came to selecting fonts. I wanted something professional looking that was also easy to read agianst the dark theme and imagery. I felt my selected font encompassed all I wanted it to, however I did decide to differentiate some heading elements from the main body text by experimenting with different font-weight's and also adding a text-shadow CSS property and believe this worked effectively while still staying on theme with the main body of content.
+Because my main design vision for the Astro Nova Website was based around a clean and sleek visual I didn't feel it necessary to overcomplicate when it came to selecting fonts. I wanted something professional looking that was also easy to read against the dark theme and imagery. I felt my selected font encompassed all I wanted it to, however I did decide to differentiate some heading elements from the main body text by experimenting with different font-weight's and also adding a text-shadow CSS property and believe this worked effectively while still staying on theme with the main body of content.
 
 - The [Jost](https://fonts.google.com/specimen/Jost?query=jost) font is the main font used throughout the whole website with Sans-serif as the fallback font. I sourced this from [Google Fonts](https://fonts.google.com/)
 
@@ -126,7 +127,7 @@ Because my main design vision for the Astro Nova Website was based around a clea
 
 ### Imagery
 
-Imagery was an important factor to consider in the design process of the Astro Nova website. Due to the whole topic of the website itself being around that of stars and the cosmos, imagery plays a vital role in encapsulating and grabbing the reader's attention. The main purpose is to immerse visitors when they visit the webpage into an atomosphere you that you created!
+Imagery was an important factor to consider in the design process of the Astro Nova website. Due to the whole topic of the website itself being around that of stars and the cosmos, imagery plays a vital role in encapsulating and grabbing the reader's attention. The main purpose is to immerse visitors when they visit the webpage into an atmosphere that you created!
 I decided to keep image background's the same on all pages, other than The AstroNova+ webpage, this was an intentional move as I wanted this page in particular to stand out from the other areas of the website, it was also important to select images that were in keeping with the design and colour scheme.
 
 
@@ -156,15 +157,15 @@ The Astro Nova website consists of four main pages: Home, Experts, Horoscopes an
 
 Some features run through all of them. These are:
 
-- Page Logo - This includes the main page title (Astro Nova). Its black theme and design compliment the website design well, and the moon, planet and star graphics featured are fitting for the scope of the website. It appears on the top of every page within the website. It also works as a clickable link that will direct you back to the home page from any other page where featured
+- Page Logo - This includes the main page title (Astro Nova). Its black theme and design complement the website design well, and the moon, planet and star graphics featured are fitting for the scope of the website. It appears on the top of every page within the website. It also works as a clickable link that will direct you back to the home page from any other page where featured
   
 ![Page Logo](documentation/logo.png)
 
-- The navigation bar - This feature stretches across the entire width of the screen and consists of links to all four available pages of the website. It was created using Boostrap and is fully responsive, scaling down to a hamburger style menu when viewed on small devices. The active tab will display a white colour when selected for all webpages other than "AstroNova+" (this is styled differently to draw user attention) while the remaining three are muted. All links also change color when a user hovers over them.
+- The navigation bar - This feature stretches across the entire width of the screen and consists of links to all four available pages of the website. It was created using Bootstrap and is fully responsive, scaling down to a hamburger style menu when viewed on small devices. The active tab will display a white colour when selected for all webpages other than "AstroNova+" (this is styled differently to draw user attention) while the remaining three are muted. All links also change color when a user hovers over them.
   
 ![Navigation Bar](documentation/navbar.png)
 
-- Alert & Modal - The Alert and Modal also feautures on all four main webpages and also stretches across the entire width of the screen. It consists of the centered text "SUBSCRIBE to our FREE Newsletter for exclusive offers and announcements..." followed by a fontawesome mail icon, when a user clicks the capitalized word "SUBSCRIBE" this toggles the Modal into action, when there a user can decide to Subscribe to AstroNova by inputting their email address followed by clicking the button labelled "Join Us!" this will direct a user to a new webpage (subscribed.html) to instruct the user that they have successfuly signed up.
+- Alert & Modal - The Alert and Modal also feauture on all four main web pages and also stretches across the entire width of the screen. It consists of the centered text "SUBSCRIBE to our FREE Newsletter for exclusive offers and announcements..." followed by a fontawesome mail icon, when a user clicks the capitalized word "SUBSCRIBE" this toggles the Modal into action, when there a user can decide to Subscribe to AstroNova by inputting their email address followed by clicking the button labelled "Join Us!" this will direct a user to a new webpage (subscribed.html) to instruct the user that they have successfuly signed up.
 
 ![Alert & Modal](documentation/modal-view.png)
 ![Completed Subscription Form](documentation/completed-subscription.png)
@@ -176,61 +177,61 @@ Some features run through all of them. These are:
 
 Home Page features:
 
-- Jumbotron - The Jumbotron is the main focus and feature on the home page working as a direct call to action for new and visiting users, this adresses one of our main User Goals "To attract a higher level of premuim members through the + membership incentives." The Jumbotron was created using Bootstrap but has been fully styled with custom CSS. 
+- Jumbotron - The Jumbotron is the main focus and feature on the home page working as a direct call to action for new and visiting users, this addresses one of our main User Goals "To attract a higher level of premuim members through the + membership incentives." The Jumbotron was created using Bootstrap but has been fully styled with custom CSS.
 
 ![Jumbotron](documentation/jumbotron.png)
 
 
 - Clickable Icons - This section is made up of two columns (on larger screens) and four columns (on smaller screens). It features 12 clickable icons that direct you to the horoscopes.html webpage. Each icon is custom designed and has been styled. Each icon will appear muted in colour when a user hover over it. I thought this to be a fun and functional way that users right from the homepage can engage and navigate interactively through the website and think this would work effectively.
 
-![Clickable Zoidac Icons](documentation/zodiac-icons.png)
+![Clickable Zodiac Icons](documentation/zodiac-icons.png)
 
 
 Experts Page features:
 
-- Introduction - A short introduction to the webpage prompting users to scroll down for further content. Headings have been styled simply with CSS, the h3 heading has been styled a shade of yellow to draw reader attention as well as the numbers "24/7" as a stand alone from the h5 heading, this addresses one of our user goals "To have an online presense which is both visually appealing and responsive which holds the ability for everybody to access and enjoy **at all times.**" 
+- Introduction - A short introduction to the webpage prompting users to scroll down for further content. Headings have been styled simply with CSS, the h3 heading has been styled a shade of yellow to draw reader attention as well as the numbers "24/7" as a stand-alone from the h5 heading, this addresses one of our user goals "To have an online presence which is both visually appealing and responsive which holds the ability for everybody to access and enjoy **at all times.**" 
 
 ![Experts Intro](documentation/experts-intro.png)
 
-- Experts Profiles - This section is comprised of three seperate "Expert Profiles". Each profile has been styled with CSS, the profile image and relative text are both contained as one and have been given a dark grey background colour with a transparency of 0.5 to give the profile better clarity against the background image and improve user readability. A hr element has also been implemented and styled with CSS to create a yellow line divider between the expert profile name and bio.
+- Experts Profiles - This section is comprised of three separate "Expert Profiles". Each profile has been styled with CSS, the profile image and relative text are both contained as one and have been given a dark grey background colour with a transparency of 0.5 to give the profile better clarity against the background image and improve user readability. A hr element has also been implemented and styled with CSS to create a yellow line divider between the expert profile name and bio.
 
 ![Expert Profiles](documentation/expert-profile.png)
 
-- Mailto Link and Icon - Within each expert profile a mail icon has also been added this was sourced from website Fontawesome. These icons have been styled with CSS to change the size and colour and also have a hover effect. Each icon has been enclosed in a anchor tag that includes a Mailto link, when this is clicked by a user they will be directed to their email page or application where they will be able directly send an email of their own choosing to the related expert. This addresses one of our First time Visitor goals "To be able to easily access experts in the field all in one place that can be trusted."
+- Mailto Link and Icon - Within each expert profile a mail icon has also been added this was sourced from website Fontawesome. These icons have been styled with CSS to change the size and colour and also have a hover effect. Each icon has been enclosed in an anchor tag that includes a Mailto link, when this is clicked by a user they will be directed to their email page or application where they will be able directly send an email of their choosing to the related expert. This addresses one of our First time Visitor goals "To be able to easily access experts in the field all in one place that can be trusted."
 
 ![Mailto Link in action](documentation/mailto-link.png)
 
 - Reviews Section - This section is comprised of two columns (larger screens) or four columns (smaller screens) in order to keep better responsive. Each review card has been styled with CSS, coloured yellow with a transparency of 0.25 and contain a speech icon sourced from website Fontawesome. 
 
-![Review section](documentation/reviews.png)
+![Review Section](documentation/reviews.png)
 
 
 Horoscopes Page features:
 
-- Title and heading - Webpage title, with a short h3 heading that lets the user know the date's to which the content is related. Both styled with custom CSS.
+- Title and heading - Webpage title, with a short h3 heading that lets the user know the dates to which the content is related. Both are styled with custom CSS.
 
 ![Horoscope Page. Title & Header](documentation/horoscopes_title-and-heading.png)
 
-- Horoscope cards - This section includes 12 seperate cards, one for each sign of the zodiac. On large screens two cards occupy a single row wheresas to keep better responsive smaller devices will display each card stacked on top of one another. Each card has been sized a styled with CSS and is accompanied by the relevant zodiac icon.
+- Horoscope cards - This section includes 12 separate cards, one for each sign of the zodiac. On large screens two cards occupy a single row whereas to keep better responsive smaller devices will display each card stacked on top of one another. Each card has been sized a styled with CSS and is accompanied by the relevant zodiac icon.
 
 ![Horoscope card](documentation/horoscope-card.png)
 
-- Horoscope card Button - Each card incorporates a button and every button tag has been given the  Bootstrap class name of "collapse", when a user selects the button this toggles the collapsable text into action. This method of displaying text makes accesibility to information easier and the webpage as a whole more managable as a user doesn't need to scroll through lots of text that isn't applicable to them. This feature therefore addresses one of our First time Visitor Goals "To navigate the website with ease, and access the simple information required quickly and without hassle."
+- Horoscope card Button - Each card incorporates a button and every button tag has been given the  Bootstrap class name of "collapse", when a user selects the button this toggles the collapsable text into action. This method of displaying text makes accessibility to information easier and the webpage as a whole more manageable as a user doesn't need to scroll through lots of text that isn't applicable to them. This feature therefore addresses one of our First time Visitor Goals "To navigate the website with ease, and access the simple information required quickly and without hassle."
 
 ![Horoscope card](documentation/button-collapse.png)
 
 
 AstroNova + Page features:
 
-- Title and heading - Webpage title, with a short h3 heading explaining free trial. Both heading elements have been styled to stand out behind the webpage background image and have been given a text-shadow CSS property.
+- Title and heading - Webpage title, with a short h3 heading explaining the free trial. Both heading elements have been styled to stand out behind the webpage background image and have been given a text-shadow CSS property.
 
 ![AstroNova+ Page. Title & Header](documentation/astronovaplus_title-and-heading.png)
 
-- Checklist - A checklist has been added to accompany the above headings. This has been made with the use of tick icons sourced from the website FontAwesome and styled together with custom CSS to display an unordered list of incentives that could appeal to website users, this addresses one of our client goals "To attract a higher level of premuim members through the + membership incentives" All incentives have been grouped and styled in a semi-transparent box to grab user attention and improve user readability.
+- Checklist - A checklist has been added to accompany the above headings. This has been made with the use of tick icons sourced from the website FontAwesome and styled together with custom CSS to display an unordered list of incentives that could appeal to website users, this addresses one of our client goals "To attract a higher level of premium members through the + membership incentives" All incentives have been grouped and styled in a semi-transparent box to grab user attention and improve user readability.
 
 ![Checklist](documentation/checklist.png)
 
-- Form - The registration form is comprised of two text inputs, one password input, one date input and one checkbox input followed by a sumbit button. The form was created with Bootstrap classes but also has custom CSS. Submission of the form will allow the user to access Astro Nova with a premium membership and unlock all benefits. When the form is sumbitted successfully the user will be directed to a registration complete page that will thank them for joining AstroNova+. The form is easily readable free of background image and simple to follow which addresses one of our First time Visitor Goals "To be able to sign-up for memberships and newsletters quickly and simply."
+- Form - The registration form is comprised of two text inputs, one password input, one date input and one checkbox input followed by a submit button. The form was created with Bootstrap classes but also has custom CSS. Submission of the form will allow the user to access Astro Nova with a premium membership and unlock all benefits. When the form is submitted successfully the user will be directed to a registration complete page that will thank them for joining AstroNova+. The form is easily readable free of any background image and simple to follow which addresses one of our First time Visitor Goals "To be able to sign-up for memberships and newsletters quickly and simply."
 
 ![Form](documentation/form.png)
 ![Form](documentation/completed-form.png)
@@ -240,9 +241,9 @@ AstroNova + Page features:
 
 Sign in Feature - to allow members to be able to access their accounts and benefits direct from the website. (to meet frequent user goal).
 
-Message us feature - a working "message us" feature implemented in a form layout that can be used to actualy recieve and respond to user queries.
+Message us feature - a working "message us" feature implemented in a form layout that can be used to actually receive and respond to user queries.
 
-Planet tracker feature - Additional webpage that would allow users to track in real time planetary and star alignments and what that would mean for them astrologicaly.
+Planet tracker feature - An additional webpage that would allow users to track in real time planetary and star alignments and find out what that would mean for them astrologically.
 
 
 ## Technologies Used
@@ -275,7 +276,7 @@ Planet tracker feature - Additional webpage that would allow users to track in r
   - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 - [Code Anywhere](https://codeanywhere.com/)
-  - Used as the development enviroment.
+  - Used as the development environment.
 
 - [Balsamiq](https://balsamiq.com/)
   - Used to create the wireframes for the project.
@@ -326,7 +327,7 @@ I have tested my deployed the AstroNova website on multiple browsers to check fo
 
 ### Responsiveness
 
-I have tested my deployed the AstroNova website on multiple device frames throughout it's creation to check for responsiveness issues. It appears to responds well to different screen sizes which ensures that users can access and navigate website content with ease regardless of the device they use.
+I have tested my deployed the Astro Nova website on multiple device frames throughout it's creation to check for responsiveness issues. It appears to respond well to different screen sizes which ensures that users can access and navigate website content with ease regardless of the device they use.
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
@@ -360,11 +361,11 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 
 | User Stories | Completed? |
 | --- | --- |
-| As a client I would like to attract both beginner and experienced astrolgy enthusiasts to the website. | ✔️ |
-| As a client I would like to attract a higher number of premuim members through the + membership incentives. | ✔️ |
-| As a client I would like this website to have an online presense which is both visually appealing and responsive that allows the ability for everybody to access and enjoy at all times. | ✔️ |
+| As a client I would like to attract both beginner and experienced astrology enthusiasts to the website. | ✔️ |
+| As a client I would like to attract a higher number of premium members through the + membership incentives. | ✔️ |
+| As a client I would like this website to have an online presence which is both visually appealing and responsive that allows the ability for everybody to access and enjoy at all times. | ✔️ |
 | As a client I want a website that is inclusive for all readers while easy and enjoyable to navigate.  | ✔️ |
-| As a client I want to welcome and inspire a passion for Astrology and Spiritualism through a webiste, and to be a safe place of trust and joy for its users. | ✔️ |
+| As a client I want to welcome and inspire a passion for Astrology and Spiritualism through a website, and to be a safe place of trust and joy for its users. | ✔️ |
 
 ### First Time User Goals
 
@@ -376,7 +377,7 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 | As a first time user, I want to be able to sign-up for memberships and newsletters quickly and simply.  | ✔️ |
 | As a first time user, I want to be able to find the website Social media accounts easily and access them all in one place.  | ✔️ |
 | As a first time user, I want to have an overall enjoyable and positive experience while visitiing the a website. | ✔️ |
-| As a first time user, I want to find a website with a clear layout that looks proffesional and trustworthy. | ✔️ |
+| As a first time user, I want to find a website with a clear layout that looks professional and trustworthy. | ✔️ |
 
 ### Returning User Goals
 
@@ -391,12 +392,35 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 | User Stories | Completed? |
 | --- | --- |
 | As a frequent user, I should be accessing the very latest updated information about my horoscope from a place that I can trust. | ✔️ |
-| As a frequent user, I want to use premium member benefits, if becomming a AstroNova+ member. | As explained in Future Feature Section this would be something I would like to implement in the future so users can access their accounts and benefits direct from the website. |
+| As a frequent user, I want to use premium member benefits, if becoming a AstroNova+ member. | As explained in Future Feature Section this would be something I would like to implement in the future so users can access their accounts and benefits direct from the website. |
 | As a frequent user, I want to to be able to sign-in direct from the website to access my account.| As explained in Future Features Section a sign-in feature would be something I would like to apply in future in order to fulfil this user goal.  |
 
-## Known Bugs & Fixs
+For further understanding of how User Story testing has been achieved please refer to the [Features](#features) section.
 
+## Fixed Bugs
 
+- Nesting a *button* element inside a *a* element.
+  - This error was flagged after my initial W3C Markup Validator testing. This was my method used in order to navigate by clicking the button and being directed to another webpage of the website. My fix for this was to use a *form* that would redirect the user upon submission. The *button* input was then changed to submit to generate the desired action. 
+- Social Links in footer were missing vital attribute.
+  - Overlooked issue that meant when a user clicked on social media icon links in the footer a user was directed away entirely from the website. To fix, the target attribute was added to the *a* tag with the value of "_blank" which opened social media links in a new tab of browser when clicked.
+- Social media section of footer.
+  - After the first W3C Markup Validator testing a warning and error were both flagged for the social media part of the footer as this had been enclosed in a *section* tag, after examining the code I realised a *section* tag wasn't necessary and swapped this out for a *div* tag which fixed all issues.
+  [Image of issue](documentation/socialmedia_section-warning.png)
+- Individual page titles were overlooked and not updated in the head element of the HTML files.
+  - To fix, updated the head element for each file so that the page title in tabs reflects the current page to the user.
+- Duplicate IDs were given to all twelve horoscope cards on the Horoscope webpage.
+  - Issue flagged by W3C Markup Validator during initial testing, as *ID* was used for styling purposes as I wanted all horoscope cards styled equally to fix this issue I simply swapped out the *ID* selector for a *class* selector and this resolved the issue.
+  [Image of issue](documentation/horoscope-card_idissue.png)
+- Disliked rendering of Checkbox on AstroNova+ webpage when viewed on small screens in landscape orientation. 
+  - Due to limited spacing available when viewed in landscape mode the checkbox wasn't giving the desired aesthetic, after attempting certain different stylings to try the resolve matter I still didn't like the end result. To fix, I added *media query - "@media screen and (max-width: 768px) and (orientation: landscape)"* and added *display: none;* to the checkbox to remove it entirely, I felt this was necessary and improved the visual of the webpage in this orientation.
+  [Image of issue](documentation/landscape-fix.png)
+- The active webpage displaying incorrectly in Nav.
+  - Had incorrectly placed *active* class within *a* element of Navbar, to fix I moved *active* class within the *li* element and fixed issue.
+  
+## Known Bugs
+
+- While the Astro Nova website is responsive and renders well on different devices, upon more detailed inspection of the Horoscopes page using the responsive tool in Developer Tools to scale down the page, I was a little displeased with the breakpoint in which the horoscope-cards would stack to take up the full width of page, currently, two columns occupy the page for a little longer than I feel is ideal so it could make readability a little harder for some users. However, having checked for responsivity over many mobile and tablet devices overall I am pleased with the outcome and believe the vast majority of users would have a positive experience. 
+Given more time I would look to rectify this issue with a custom media query.
 
 ## Deployment
 
@@ -435,23 +459,23 @@ Making a clone is basically making a copy of the selected repository.
 
 - [W3Schools](https://www.w3schools.com/)
   - Helping to find to solution for modal operating issues by use of #data-target element not correctly implemented..
-  - Research for example use of the hover affect for CSS for clickable elements.
+  - Research for example use of the hover effect for CSS for clickable elements.
 
 - [Matt Rudge, Code Institute](https://codeinstitute.net/)
   - Callout container stylings on Home Page.
   - Jumbotron layout (inspired from WhiskeyDrop website)
-  - Inspiration behind styled "hr" element to form a solid decorational line.
+  - Inspiration behind styled "hr" element to form a solid decoration line.
   
 - [MD Bootstrap](https://mdbootstrap.com/docs/)
   - Inspiration for footer layout.
 
-- [Bootstrap Verson 4.1.3](https://getbootstrap.com/)
+- [Bootstrap Version 4.1.3](https://getbootstrap.com/)
   - Bootstrap Library used throughout the project for responsivity such as container-fluid class.
   - Bootstrap Docs for help and inspiration for form layout.
 
 ### Content
 
-- [Elle Website](https://www.elle.com/horoscopes/weekly/) - for content contained in all twelve weekly horoscope's located in the "Horoscope Section" section of the "Horoscopes" page.
+- [Elle Website](https://www.elle.com/horoscopes/weekly/) - for content contained in all twelve weekly horoscopes located in the "Horoscope Section" section of the "Horoscopes" page.
 - [Sanctuary World](https://www.sanctuaryworld.co/readers/) - for content found in each reader profile contained in the "Expert Readers" section of the "Experts" page.
 - [NASA](https://www.nasa.gov/) - Used for content inspiration throughout the project.
 - [Astrology](https://www.astrology.com/us/home.aspx) - Used for content inspiration throughout the project.
@@ -462,11 +486,11 @@ Making a clone is basically making a copy of the selected repository.
 Background Imagery across website + Images featured on Experts webpage:
 - [Pexels](https://www.pexels.com/),
 
-All Zodiac Images (Although not direct copies and have been reworked and designed by myself using Adobe Illustrator for the purpose of this website design).
+All Zodiac Images (Although not direct copies as have been reworked and designed by myself using Adobe Illustrator for the purpose of this website design).
 - [All Free Downloads](https://all-free-download.com/).
 
-### Acknowledgements
+### Acknowledgments
 
-- [Nigel Edwards](https://slack.com/) (College of West Anglia cohort facilitator) - for his continued support and guidance throughout this course and his words of encouragment when I've felt overwhelmed. 
+- [Nigel Edwards](https://slack.com/) (College of West Anglia cohort facilitator) - for his continued support and guidance throughout this course and his words of encouragment when I've felt overwhelmed.
 - [Code Institute Slack Community](https://code-institute-room.slack.com) - for the moral support and advice from my fellow students, this has made me feel understood and has kept me going through periods of Imposter Syndrome.
-- Tiffany, Bowie & Indie - in periods of struggle looking at my family has given me the daily reminder that everything I do is for them. Thank you to my partner for keeping our crazy ship sailing during my late nights both working and studying, and for putting up with my persistant talk of code! I love you all.
+- Tiffany, Bowie & Indie - in periods of struggle looking at my family has given me the daily reminder that everything I do is for them. Thank you to my partner for keeping our crazy ship sailing during my late nights both working and studying and for putting up with my persistent talk of code! I love you all.
